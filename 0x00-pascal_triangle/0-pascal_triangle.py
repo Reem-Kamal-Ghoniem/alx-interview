@@ -13,7 +13,7 @@ def pascal_triangle(n):
             level = []
             Count = 1
             for j in range(1, i + 1):
-                level.append(C)
+                level.append(Count)
                 Count = Count * (i - j) // j
             result.append(level)
     return result
